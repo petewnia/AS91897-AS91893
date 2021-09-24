@@ -99,3 +99,17 @@ body {
     font-weight: bold;
 }
 /* End of footer styling */
+
+.ending-line {
+    width: 75%;
+    color: #87898C;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.breaking-line {
+    width: 50%;
+    color: #87898C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
