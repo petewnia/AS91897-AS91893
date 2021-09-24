@@ -1,0 +1,109 @@
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+/* Start of Header/navbar styling */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: center;
+    background-color: #733729;
+}
+
+#header-logo {
+    background-color: #733729;
+}
+
+#header-logo img {
+    width: 110px;
+    padding: 15px;
+    float: left;
+}
+
+#header-nav-home {
+    font-size:  30px;
+    border-left: solid #F0F2F2;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.main-nav {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.main-nav:hover{
+    font-size: larger;
+}
+
+.main-nav-active {
+    background-color: #73A9D9;
+    font-size: 30px;
+    border-left: solid #F0F2F2;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-nav-inactive {
+    background-color: #254159;
+    font-size: 30px;
+    border-left: solid #F0F2F2;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+/* End of Header/navbar styling */
+
+#intro {
+    grid-column: 1 / span 7;
+    background-image: url("../images/mountain_view_dark.jpg");
+    background-origin: padding-box;
+    background-size: cover;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    padding: 150px 0;
+}
+
+#intro h2 {
+    border-bottom: 2px solid #87898C;
+    padding-bottom: 5px;
+    margin: 0 400px;
+}
+
+#info {
+    grid-column: 1 / span 7;
+    background-color:#F0F2F2;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+#info a {
+    color: #2C7BBF;
+}
+
+#info a:hover {
+    color: #223A59;
+}
+
+#footer {
+    grid-column: 1 / span 7;
+    padding-left: 20px;
+    background-color: #87898C;
+}
+
+#footer ul li {
+    display: inline;
+    padding-right: 30px;
+}
+
+#footer ul li a {
+    color: black;
+}
+
+#footer ul li a:hover {
+    font-weight: bold;
+}
