@@ -1,4 +1,4 @@
-.grid-container {
+#main-grid-container {
     display: grid;
     grid-template-columns: 44% 13% 15% 28%;
     background-color: #2196F3;
@@ -12,12 +12,10 @@ body {
 #header-logo {
     background-color: #733729;
 }
-
 #header-logo img {
     width: 300px;
     float: left;
 }
-
 #header-nav-home {
     font-size:  30px;
     border-left: solid #F0F2F2;
@@ -25,16 +23,13 @@ body {
     text-align: center;
     padding-top: 25px;
 }
-
 .main-nav {
     color: white;
     text-shadow: 1px 1px 2px black;
 }
-
 .main-nav:hover{
     font-size: larger;
 }
-
 .main-nav-active {
     background-color: #73A9D9;
     font-size: 30px;
@@ -43,7 +38,6 @@ body {
     text-align: center;
     padding-top: 30px;
 }
-
 .main-nav-inactive {
     background-color: #254159;
     font-size: 30px;
@@ -54,6 +48,7 @@ body {
 }
 /* End of Header/navbar styling */
 
+/* Start of intro styling */
 #intro {
     grid-column: 1 / span 4;
     background-image: url("../images/mountain_view_dark.jpg");
@@ -65,43 +60,42 @@ body {
     text-align: center;
     padding: 150px 0;
 }
-
 #intro h2 {
     border-bottom: 2px solid #87898C;
     padding-bottom: 5px;
     margin: 0 400px;
 }
+/* End of intro styling */
 
-#info {
+/* Start of info styling */
+.info {
     grid-column: 1 / span 4;
     background-color:#F0F2F2;
     font-size: 20px;
     padding: 0px 20px;
 }
-
 #info a {
     color: #2C7BBF;
 }
-
 #info a:hover {
     color: #223A59;
 }
+/* End of info styling */
 
+/* Start of footer styling */
 #footer {
     grid-column: 1 / span 4;
     padding-left: 20px;
     background-color: #87898C;
 }
-
 #footer ul li {
     display: inline;
     padding-right: 30px;
 }
-
 #footer ul li a {
     color: black;
 }
-
 #footer ul li a:hover {
     font-weight: bold;
 }
+/* End of footer styling */

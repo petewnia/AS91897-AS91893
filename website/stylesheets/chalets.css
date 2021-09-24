@@ -1,0 +1,50 @@
+.basic {
+    background-color:#F0F2F2;
+    font-size: 20px;
+    padding: 0px 20px
+}
+
+/* Start of styling Chalet1 */
+#chalet1-grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.chalet-maxcount li {
+    display: inline;
+    padding-right: 50px;
+    font-size: larger;
+}
+#chalet1-img {
+    width: 500px;
+    padding: 20px;
+}
+.chalet-grid-features {
+    padding-left: 50px;
+}
+.chalet-grid-features ul li {
+    font-size: larger;
+    padding-bottom: 50px;
+}
+/* End of styling Chalet1 */
+
+/* Start of styling Chalet2 */
+#chalet2-grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#chalet2-img {
+    width: 500px;
+    padding: 20px;
+}
+/* End of styling Chalet2 */
+
+/* Start of styling Chalet3 */
+#chalet3-grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#chalet3-img {
+    width: 500px;
+    padding: 20px;
+}
+/* End of styling Chalet3 */
