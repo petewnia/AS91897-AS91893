@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maunga Club</title>
-    <link href="stylesheets/normalize.css" rel="stylesheet">
-    <link href="stylesheets/main.css" rel="stylesheet">
+    <link href="../stylesheets/normalize.css" rel="stylesheet">
+    <link href="main3.css" rel="stylesheet">
     <!-- Importing Cabin font, from Google Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,21 +14,12 @@
     <!-- End of Importing Cabin font, from Google Font-->
 </head>
 <body>
-    <div class="grid-container">
+    <div id="main-grid-container">
 
-        <div id="header-logo">
-            <img id="logo" src="images/Maunga_Club_white.png" alt="">
-        </div>
-
-        <div id="header-nav-home" class="main-nav-active">
-            <a class="main-nav" href="index.html">Home</a>
-        </div>
-
-        <div id="header-nav-chalets" class="main-nav-inactive">
+        <div id="navbar">
+            <img id="logo" src="../images/Maunga_Club_white.png" alt="">
+            <a class="main-nav" href="index3.html">Home</a>
             <a class="main-nav" href="chalets.html">Chalets</a>
-        </div>
-
-        <div id="header-nav-booking" class="main-nav-inactive">
             <a class="main-nav" href="booking.html">Book for Membership</a>
         </div>
 
@@ -54,13 +45,26 @@
         </div>
 
         <div id="footer">
-            <p>&copy; 19XX-2021 Maunga Club.</p>
+            <div id="footer-grid-container">
 
-            <ul>
-                <li><a href="https://facebook.com/maungaclub/">Facebook</a></li>
-                <li><a href="https://twitter.com/maungaclub/">Twitter</a></li>
-                <li><a href="https://instragram.com/maungaclub/">Instragram</a></li>
-            </ul>
+                <div class="footer-grid-item" id="facebook">
+                    <a href="https://facebook.com/maungaclub/">
+                    <img src="../images/social_media_logoes/facebook.png" alt="">
+                    </a>
+                </div>
+
+                <div class="footer-grid-item" id="twitter">
+                    <a href="https://twitter.com/maungaclub/">
+                    <img src="../images/social_media_logoes/twitter.png" alt="">
+                    </a>
+                </div>
+
+                <div class="footer-grid-item" id="instgram">
+                    <a href="https://instragram.com/maungaclub/">
+                    <img src="../images/social_media_logoes/instagram.png" alt="">
+                    </a>
+                </div>
+
         </div>
 
       </div>

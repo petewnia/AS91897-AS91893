@@ -1,6 +1,6 @@
-.grid-container {
+#main-grid-container {
     display: grid;
-    grid-template-columns: 44% 13% 15% 28%;
+    grid-template-columns: 20% 80%;
     background-color: #2196F3;
 }
 
@@ -9,11 +9,12 @@ body {
 }
 
 /* Start of Header/navbar styling */
-#header-logo {
+#navbar {
+    grid-row: 1 / 4;
     background-color: #733729;
 }
 
-#header-logo img {
+#navbar img {
     width: 300px;
     float: left;
 }
@@ -93,15 +94,13 @@ body {
     background-color: #87898C;
 }
 
-#footer ul li {
-    display: inline;
-    padding-right: 30px;
+#footer-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;;
+    justify-content: center;
 }
 
-#footer ul li a {
-    color: black;
-}
-
-#footer ul li a:hover {
-    font-weight: bold;
+.footer-grid-item img {
+    width: 60px;
+    padding: 10px 100px;
 }
